@@ -1,4 +1,4 @@
- #  A Global Crisis and the Power of Technology to Fight Back! 🌍
+ # CovidApp
 In 2019, COVID-19 began in Wuhan, China, and rapidly spread across the globe, becoming one of the most significant health crises in human history. It led to the loss of millions of lives, shook the global economy, and put healthcare systems to an extreme test. This disaster deeply impacted societies, changed our way of life, and left lasting marks on our world.
 But we continue our fight with the power of technology! 🚀
 
