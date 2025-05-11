@@ -1,88 +1,22 @@
+ #  A Global Crisis and the Power of Technology to Fight Back! 🌍
+In 2019, COVID-19 began in Wuhan, China, and rapidly spread across the globe, becoming one of the most significant health crises in human history. It led to the loss of millions of lives, shook the global economy, and put healthcare systems to an extreme test. This disaster deeply impacted societies, changed our way of life, and left lasting marks on our world.
+But we continue our fight with the power of technology! 🚀
 
-   # Gerekli Kütüphaneler
+🛠️ Technologies Used 💻
 
-- @testing-library/jest-dom
-- @testing-library/react
-- axios 
-- millify
-- react-simple maps
-- react-router-dom
-- react-icons
-- tailwindcss
-- @reduxjs/toolkit
-- react-redux
-- redux-thunk
+🟢 React.js: Used to build a dynamic and user-friendly interface.
 
+🔄 Redux: Enabled effective state management throughout the application.
 
-# Kaynaklar
+🌐 Axios: Retrieved real-time COVID-19 data from a live API.
 
-- Detay Verileri İçin: https://rapidapi.com/api-sports/api/covid-193/playground/apiendpoint_2feca6f0-0f58-40b7-9196-98c45c7d5083
+🗺️ Leaflet.js: Visualized cases, recoveries, and deaths on an interactive map.
 
-- Toplam Verileri İçin: https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/playground/apiendpoint_191c58c7-a995-4024-a5ee-41043d79e542
+🔢 Millify: Made large numbers more readable and user-friendly.
 
-- TOPOJSON: https://github.com/topojson/world-atlas?tab=readme-ov-file
+🗺️ React-Simple-Maps: Integrated interactive maps into the project.
 
+🌍 Rest Countries API: Provided detailed country information, integrated with map and data features.
 
-
-# Bazı Test Methodları
-Sadece describe içerrisinde kullanıalabilen methodlar:
-
-beforeEach : her testin öncesinde çalışır
-
-afterEach : her tesin sonrasında çalışır
-
-beforeAll : bütün testlerin öncesinde çalışır
-
-afterAll : bütün testlerin sonrasında çalışır
-
-# Selector
-Ekrandaki elementleri almak için kullandığımız seçici methodları 3 ana parçadan oluşur:
-1. Method:
-Get: Ekrandaki elementi alamazsa hata fırlatır.
-Query: Ekrandaki elementi alamazsa null döndürür.
-Find: Ekrana asenkron olarak basılan elementleri almak için kullanılır.
-2. All İfadesi:
-Eğerki ekrandan sorgu koşuluna uygun birden fazla element almak istiyorsak method'un devamını all ifadesini ekleriz
-All kullanırsak dönen cevap dizi formatında olur.
-getAllBy | queryAllBy | findAllBy
-3. Sorgu Methodu:
-Hangi yöntemle elementi seçiceğimi belirleyen method
-
-ByRole
-
-ByLabelText
-
-ByPlaceholder
-
-ByText
-
-ByTitle
-
-ByTestId
-
-ByAltText
-
-ByDisplayValue
-
-Örnek
-
-getByTestId - getAllByTestId
-
-queryByTestId - queryAllByTestId
-
-findByTestId - findAllByTestId
-
- # TDD - TAD
-- Test Driven Development
-
-- Koddan önce testlerin yazıldığı geliştirme yöntemidir.
-
-- Geliştirici önce başarısız testleri yazar, sonra bu testleri geçicek kodları yazar.
-
-- red to green test
-
-- Test After Development
-
-- Kod tamamlandıktan sonra testlerin 
 
 
